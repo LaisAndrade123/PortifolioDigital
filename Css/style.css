@@ -10,9 +10,14 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 
 a:hover { /*pseudo-classe*/
-    color: rgb(214, 214, 214);
+    color: rgb(136, 41, 0);
     text-decoration: none;
 }
 
@@ -27,16 +32,59 @@ h1, h2, h3, h4, h5 ,h6 {
     bottom: 0;
     width: 300px;
     background: rgb(206, 117, 0); /* fundo Header Vertical */
-    transition: all ease-in-out 2s;
+    transition: all ease-in-out 5s;
     z-index: 9999;
     padding: 0 15px;
     overflow-y: auto;
 }
 
 #header .perfil img {
-    margin: 15px;
+    margin: 47px;
     display: block;
-    width: 210px;
-    border: 19px solid dashed;
-    border-style: dashed;
+    width: 180px;
+    border: 3px solid #a04800 ;
+    box-shadow: 0px 0px 15px #c94d00d0;
+}
+
+#header .text-light {
+    font-family: 5px;
+}
+
+.text-light a {
+    font-family: "Bebas Neue";
+    color: #7c2b00;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text-light a:hover {
+    color: rgb(255, 255, 255);
+    transition: all .5s;
+    
+}
+
+#header .perfil .social-links i {
+    font-size: 18px;
+    color: #a04800;  
+    background: blanchedalmond; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 1px; 
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#header .perfil .social-links i:hover {
+    color: #ffffff;
+    background: rgb(139, 65, 1);
+    transition: all 0.3s;
+}
+
+#header .perfil .social-links i:hover {
+    color: #ffffff;
+    background: rgb(139, 65, 1);
+    transition: all 0.3s;
 }
