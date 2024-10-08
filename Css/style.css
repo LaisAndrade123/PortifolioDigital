@@ -7,7 +7,6 @@ body {
     color: #000000; /* Cor da letra */
     background: rgb(218, 216, 214); /* Cor de fundo */
     
-
 }
 
 a {
@@ -69,7 +68,7 @@ h1, h2, h3, h4, h5 ,h6 {
     background: blanchedalmond; 
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 28%;
     margin-right: 1px; 
     text-align: center;
     display: inline;
@@ -83,8 +82,92 @@ h1, h2, h3, h4, h5 ,h6 {
     transition: all 0.3s;
 }
 
-#header .perfil .social-links i:hover {
-    color: #ffffff;
-    background: rgb(139, 65, 1);
-    transition: all 0.3s;
+
+#main {
+    margin-left: 300px;
 }
+
+.container,
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Navigation Menu */
+/* Desktop Navigation */
+
+.nav-menu {
+    padding: 30px 0 0 0;
+}
+
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu>ul>li {
+    position: relative;
+    white-space: nowrap;
+    top: -9px;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #7c2b00;
+    padding: 12px 15px;
+    margin-bottom: 1px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus {
+    font-size: 24px;
+    padding-right: 8px;
+    color:#6c2701;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
+    text-decoration: none;
+    color: rgb(61, 23, 0);
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a i{
+    color: rgb(61, 23, 0);
+}
+
+
+
+/* Mobile Menu */
+
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background: #d87300;
+    color: #631b00;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
