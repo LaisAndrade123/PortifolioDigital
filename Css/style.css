@@ -194,3 +194,14 @@ h1, h2, h3, h4, h5 ,h6 {
     }
 
 }
+
+/* Hero */
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://olhardigital.com.br/wp-content/uploads/2023/11/Gif-astronauta-arco-iris.gif);
+    background-size: cover;
+    background-position: center;
+}
+
