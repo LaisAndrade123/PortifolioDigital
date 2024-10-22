@@ -4,12 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Spicy+Rice&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 
 body {
     font-family: "Bebas Neue", sans-serif;/* Fonte */
     color: #000000; /* Cor da letra */
-    background: rgb(218, 216, 214); /* Cor de fundo */
+    background: rgb(236, 236, 236); /* Cor de fundo */
     
 }
 
@@ -245,3 +247,80 @@ h1, h2, h3, h4, h5 ,h6 {
     letter-spacing: 1px;
     border-bottom: 3px solid #003e7c;
 } 
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }  
+    
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Seção Geral */
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background: #b2ceff;
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #151515;
+    font-family: "Pacifico", cursive;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 3px;
+    background: #e89700;
+    bottom: 0;
+    left: 0;
+} 
+
+.section-title p {
+    margin-bottom: 0;
+    color: #7e3200;
+    font-size: 1500;
+    font-family: "Oswald", sans-serif
+}
+
+/* # about*/
+
+.about .content h3 {
+    font-weight: 500;
+    font-size: 29px;
+    color: #923b00;
+    font-family: "Pacifico", cursive;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.about .content ul li {
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+}
