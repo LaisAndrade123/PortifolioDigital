@@ -282,7 +282,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #151515;
+    color: #953e00;
     font-family: "Pacifico", cursive;
 }
 
@@ -300,15 +300,15 @@ section {
 .section-title p {
     margin-bottom: 0;
     color: #7e3200;
-    font-size: 1500;
-    font-family: "Oswald", sans-serif
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
 }
 
 /* # about*/
 
 .about .content h3 {
     font-weight: 500;
-    font-size: 29px;
+    font-size: 31px;
     color: #923b00;
     font-family: "Pacifico", cursive;
 }
@@ -323,4 +323,30 @@ section {
     margin-bottom:20px;
     display: flex;
     align-items: center;
+}
+
+.about .content ul strong {
+    margin-right: 10px;
+    color: #6c2701;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.about .content ul span {
+    color: #541d00;
+   font-size: 18px;
+}
+
+.about .content p {
+    color: #743000;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #6c2701;
+    line-height: 0;
 }
